@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/style.css">
+    <title>Calories Counter</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Calories Counter</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Calories</th>
+                        <th>Carbs</th>
+                        <th>Protein</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Total</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </thead>
+            </table>
+            <div>
+                <form>
+                    <input type="text" name="description" id="description" placeholder="description">
+                    <input type="number" name="calories" id="calories" placeholder="calories">
+                    <input type="number" name="carbs" id="carbs" placeholder="carbs">
+                    <input type="number" name="proteins" id="proteins" placeholder="proteins">
+                    <button onclick="calcular()">Add</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
