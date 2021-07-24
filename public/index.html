@@ -8,37 +8,35 @@
     <title>Calories Counter</title>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Calories Counter</h1>
-            <table>
+    <main class="main">
+        <section class="container">
+            <h1 class="container__title">Calories Counter</h1>
+            <table class="container__body">
                 <thead>
-                    <tr>
-                        <th>Description</th>
-                        <th>Calories</th>
-                        <th>Carbs</th>
-                        <th>Protein</th>
+                    <tr class="table__title">
+                        <th class="table__title-item">Food</th>
+                        <th class="table__title-item">Cal</th>
+                        <th class="table__title-item">Carb</th>
+                        <th class="table__title-item">Prot</th>
                     </tr>
                 </thead>
                 <tbody>
                 </tbody>
                 <thead>
-                    <tr>
-                        <th>Total</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
+                    <tr class="table__title">
+                        <th class="table__title-item">Total</th>
+                        <th class="table__title-item">0</th>
+                        <th class="table__title-item">0</th>
+                        <th class="table__title-item">0</th>
                     </tr>
                 </thead>
             </table>
-            <div>
-                <form>
-                    <input type="text" name="description" id="description" placeholder="description">
-                    <input type="number" name="calories" id="calories" placeholder="calories">
-                    <input type="number" name="carbs" id="carbs" placeholder="carbs">
-                    <input type="number" name="proteins" id="proteins" placeholder="proteins">
-                    <button onclick="calcular()">Add</button>
-                </form>
+            <div class="container__inputs">
+                <input class="container__inputs-item food" type="text" name="description" id="description" placeholder="description">
+                <input class="container__inputs-item number" type="number" name="calories" id="calories" placeholder="calories">
+                <input class="container__inputs-item number" type="number" name="carbs" id="carbs" placeholder="carbs">
+                <input class="container__inputs-item number" type="number" name="proteins" id="proteins" placeholder="proteins">
+                <button class="container__inputs-button" onclick="calcular()">Add</button>
             </div>
         </section>
     </main>
