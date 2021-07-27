@@ -1,3 +1,5 @@
+import "./style/style.css"
+
 const description = document.getElementById("description");
 const calories = document.getElementById("calories");
 const carbs = document.getElementById("carbs");
